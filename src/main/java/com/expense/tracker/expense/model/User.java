@@ -1,6 +1,7 @@
 package com.expense.tracker.expense.model;
 
 import javax.persistence.Entity;
+import javax.persistence.Id;
 import javax.persistence.Table;
 
 import lombok.AllArgsConstructor;
@@ -14,6 +15,7 @@ import lombok.NoArgsConstructor;
 @Table(name="user")
 public class User {
 
+	@Id
 	private Long id;
 	
 	private String name;
