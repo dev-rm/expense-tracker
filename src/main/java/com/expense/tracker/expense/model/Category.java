@@ -19,7 +19,4 @@ public class Category {
 	private Long id;
 	
 	private String name;
-	
-	@ManyToOne(cascade=CascadeType.PERSIST)
-	private User user;
 }

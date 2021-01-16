@@ -24,7 +24,4 @@ public class User {
 	private String name;
 	
 	private String email;
-	
-	@OneToMany
-	private Set<Category> category;
 }
